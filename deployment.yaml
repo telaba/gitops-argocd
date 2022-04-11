@@ -11,6 +11,8 @@ spec:
     metadata:
       labels:
         run: mynginx
+      annotations:
+        ad.datadoghq.com/mynginx.logs: '[{"source":"nginx"}]'
     spec:
       containers:
       - image: nginx
