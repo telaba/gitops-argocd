@@ -12,7 +12,7 @@ spec:
       labels:
         run: mynginx
       annotations:
-        #ad.datadoghq.com/mynginx.logs: '[{"source":"nginx5"}]'
+        #ad.datadoghq.com/mynginx.logs: '[{"source":"nginx6"}]'
     spec:
       containers:
       - image: nginx
